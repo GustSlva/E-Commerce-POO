@@ -3,6 +3,8 @@ class Venda:
         self.id = id
         self.cliente = cliente
         self.itens = itens
+        self.status_entrega = "Pendente"  # Novo atributo
+        self.entregador = None            # Novo atributo
 
     def total(self):
         return sum(item.produto.preco * item.quantidade for item in self.itens)
