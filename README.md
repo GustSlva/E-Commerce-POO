@@ -19,7 +19,17 @@ O projeto simula o ecossistema de uma loja virtual, dividindo as permissões ent
 
 O projeto adota uma arquitetura em camadas para separar a lógica de negócio da persistência de dados. O padrão DAO foi implementado para isolar o dicionário do "Banco" das regras de manipulação.
 
-![Diagrama de Classes UML](diagrama.png)
+### Diagrama Caso de Uso
+
+![Diagrama de Caso de uso](/diagramas/caso%20de%20uso.png)
+
+### Diagrama Modelos
+
+![Diagrama de Modelos](/diagramas/modelos.png)
+
+### Diagrama de View
+
+![Diagrama de View](/diagramas/componentes%20de%20VIEW.png)
 
 ---
 
